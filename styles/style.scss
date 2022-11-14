@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: rgb(176, 204, 241);
+}
+
+.container {
+  background-color: rgb(240, 235, 235);
+  border-radius: 6px;
+
+  width: 50em;
+  margin: 10em auto;
+  padding: 2em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 1em;
+  }
+
+  #task-input {
+    font-size: 1em;
+
+    border-radius: 6px;
+    border: 1px solid black;
+
+    margin-right: 0.5em;
+
+    width: 20em;
+    height: 1.6em;
+  }
+
+  .create-task-btn {
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(48, 42, 42);
+    color: white;
+    font-weight: 600;
+
+    width: 8em;
+    height: 2em;
+
+    transition: 0.3s;
+
+    &:hover {
+      background-color: rgb(241, 209, 209);
+      border: 1px solid black;
+      color: black;
+    }
+  }
+
+  .task-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 2em;
+
+    p {
+      font-size: 1.2em;
+
+      margin-right: 1em;
+    }
+
+    button {
+      font-size: 0.8em;
+      font-weight: 600;
+
+      padding: 0.5em;
+
+      border-radius: 6px;
+      border: 1px solid gray;
+    }
+
+    .task-btns-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      margin: 0.8em 0 2em;
+
+      .delete-btn {
+        background-color: rgb(245, 106, 106);
+
+        transition: 0.3s;
+
+        &:hover {
+          background-color: rgb(231, 30, 30);
+        }
+      }
+
+      .finish-btn {
+        background-color: rgb(115, 241, 115);
+
+        margin-right: 0.5em;
+
+        transition: 0.3s;
+
+        &:hover {
+          background-color: rgb(28, 230, 28);
+        }
+      }
+    }
+  }
+}
+
+.red {
+  background-color: red;
+  border: 10px solid red;
+}

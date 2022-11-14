@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #b0ccf1;
+}
+
+.container {
+  background-color: #f0ebeb;
+  border-radius: 6px;
+  width: 50em;
+  margin: 10em auto;
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h1 {
+  margin-bottom: 1em;
+}
+
+.container #task-input {
+  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid black;
+  margin-right: 0.5em;
+  width: 20em;
+  height: 1.6em;
+}
+
+.container .create-task-btn {
+  border-radius: 6px;
+  border: none;
+  background-color: #302a2a;
+  color: white;
+  font-weight: 600;
+  width: 8em;
+  height: 2em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .create-task-btn:hover {
+  background-color: #f1d1d1;
+  border: 1px solid black;
+  color: black;
+}
+
+.container .task-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2em;
+}
+
+.container .task-list-container p {
+  font-size: 1.2em;
+  margin-right: 1em;
+}
+
+.container .task-list-container button {
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0.5em;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+
+.container .task-list-container .task-btns-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.8em 0 2em;
+}
+
+.container .task-list-container .task-btns-container .delete-btn {
+  background-color: #f56a6a;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .task-list-container .task-btns-container .delete-btn:hover {
+  background-color: #e71e1e;
+}
+
+.container .task-list-container .task-btns-container .finish-btn {
+  background-color: #73f173;
+  margin-right: 0.5em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .task-list-container .task-btns-container .finish-btn:hover {
+  background-color: #1ce61c;
+}
+
+.red {
+  background-color: red;
+  border: 10px solid red;
+}
+/*# sourceMappingURL=style.css.map */
